@@ -17,5 +17,5 @@ INSERT INTO reason_category (name) VALUES
 
 -- Dev staff accounts. Change these emails to real ones before demo day.
 INSERT INTO warden (name, email, hostel_id)
-SELECT 'Warden (Boys 1)', 'warden1@chitkara.edu.in', hostel_id FROM hostel WHERE name = 'Boys Hostel 1';
-INSERT INTO gate_staff (name, email) VALUES ('Main Gate Guard', 'gate@chitkara.edu.in');
+SELECT 'Warden (Boys 1)', 'warden1@krmu.edu.in', hostel_id FROM hostel WHERE name = 'Boys Hostel 1';
+INSERT INTO gate_staff (name, email) VALUES ('Main Gate Guard', 'gate@krmu.edu.in');
